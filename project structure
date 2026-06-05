@@ -1,0 +1,14 @@
+docker-3tier-devops-project/
+├── docker-compose.yml
+├── README.md
+├── .env.example
+├── .gitignore
+├── nginx/
+│   └── default.conf
+├── backend/
+│   ├── Dockerfile
+│   ├── app.py
+│   ├── requirements.txt
+│   └── .dockerignore
+└── mysql/
+    └── init.sql
